@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Modelagem e Simula&#xe7;&#xe3;o de Dengue 2.0"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jLabelTamanhoGrade" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelNumeroHabitantes" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelVetoresExpostos" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelHabitantesInfectados" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelHabitantesRecuperados" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelHabitantesExpostos" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelVetoresSusceptiveis" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelVetoresInfectados" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelMesesDeSimulacao" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelTamanhoDaVizinhanca" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelNomeDoArquivo" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jButtonSimulacaoVisual" min="-2" pref="135" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jButtonGeraArquivo" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jTextFieldNomeDoArquivo" min="-2" pref="282" max="-2" attributes="0"/>
+                          <Component id="jTextFieldTamanhoDaVizinhaca" alignment="0" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="jTextFieldMesesDeSimulacao" alignment="0" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="jTextFieldVetoresInfectados" alignment="0" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="jTextFieldVetoresExpostos" alignment="0" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="jTextFieldVetoresSusceptiveis" alignment="0" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="jTextFieldHabitantesRecuperados" alignment="0" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="1">
+                                      <Component id="jTextFieldHabitantesExpostos" min="-2" pref="66" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jLabelSemente" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jTextFieldTamanhoGrade" alignment="0" min="-2" pref="66" max="-2" attributes="0"/>
+                                          <Component id="jTextFieldNumeroHabitantes" alignment="0" min="-2" pref="66" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jLabelValorDeAjusteGlobal" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabelValorDeAjusteLocal" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="jTextFieldHabitantesInfectados" alignment="0" min="-2" pref="66" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jTextFieldSemente" pref="54" max="32767" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jTextFieldAjusteGlobal" alignment="0" pref="43" max="32767" attributes="1"/>
+                                      <Component id="jTextFieldAjusteLocal" alignment="0" pref="43" max="32767" attributes="1"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTextFieldTamanhoGrade" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
+                  <Component id="jLabelTamanhoGrade" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelValorDeAjusteLocal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextFieldAjusteLocal" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTextFieldNumeroHabitantes" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
+                  <Component id="jLabelNumeroHabitantes" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelValorDeAjusteGlobal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextFieldAjusteGlobal" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelHabitantesExpostos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextFieldHabitantesExpostos" min="-2" pref="17" max="-2" attributes="0"/>
+                  <Component id="jLabelSemente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextFieldSemente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelHabitantesInfectados" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextFieldHabitantesInfectados" min="-2" pref="17" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabelHabitantesRecuperados" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="jLabelVetoresSusceptiveis" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="jLabelVetoresExpostos" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="jLabelVetoresInfectados" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="jLabelMesesDeSimulacao" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="jLabelTamanhoDaVizinhanca" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabelNomeDoArquivo" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jTextFieldHabitantesRecuperados" min="-2" pref="17" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextFieldVetoresSusceptiveis" min="-2" pref="17" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextFieldVetoresExpostos" min="-2" pref="17" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextFieldVetoresInfectados" min="-2" pref="17" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextFieldMesesDeSimulacao" min="-2" pref="17" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextFieldTamanhoDaVizinhaca" min="-2" pref="17" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jTextFieldNomeDoArquivo" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jButtonSimulacaoVisual" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButtonGeraArquivo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabelTamanhoGrade">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tamanho da Grade"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelNumeroHabitantes">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xfa;mero de Habitantes"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelHabitantesExpostos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Habitantes Expostos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelHabitantesInfectados">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Habitantes Infectados"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelHabitantesRecuperados">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Habitantes Recuperados"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelVetoresSusceptiveis">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vetores Susceptiveis"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelVetoresExpostos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vetores Expostos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelVetoresInfectados">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vetores Infectados"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMesesDeSimulacao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Meses de Simula&#xe7;&#xe3;o"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelTamanhoDaVizinhanca">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tamanho da Vizinhan&#xe7;a"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelNomeDoArquivo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nome do Arquivo LOG"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldTamanhoGrade">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="115"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldTamanhoGradeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldNumeroHabitantes">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="13000"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldNumeroHabitantesActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldHabitantesExpostos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldHabitantesExpostosActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldHabitantesInfectados">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldHabitantesInfectadosActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldHabitantesRecuperados">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldHabitantesRecuperadosActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldVetoresSusceptiveis">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1040"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldVetoresSusceptiveisActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldVetoresExpostos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldVetoresExpostosActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldVetoresInfectados">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="260"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldVetoresInfectadosActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldMesesDeSimulacao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="12"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldMesesDeSimulacaoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldTamanhoDaVizinhaca">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldTamanhoDaVizinhacaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldNomeDoArquivo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="dengue1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldNomeDoArquivoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonSimulacaoVisual">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Simula&#xe7;&#xe3;o Visual"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonSimulacaoVisualActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelValorDeAjusteLocal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Valor de Ajuste Local"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelValorDeAjusteGlobal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Valor de Ajuste Global"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldAjusteLocal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0.9"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldAjusteGlobal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0.1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelSemente">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Semente"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldSemente">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="321789"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonGeraArquivo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gera Arquivo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonGeraArquivoActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
